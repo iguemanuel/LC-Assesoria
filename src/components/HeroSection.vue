@@ -110,6 +110,7 @@ onUnmounted(() => {
 .carousel {
   position: relative;
   width: 100%;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -193,6 +194,10 @@ onUnmounted(() => {
 }
 
 @media (max-width: 768px) {
+  .carousel {
+    width: 100%;
+  }
+
   .carousel-btn {
     width: 36px;
     height: 36px;
