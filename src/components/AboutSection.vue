@@ -5,9 +5,9 @@ const statsRef = ref<HTMLElement | null>(null)
 const animated = ref(false)
 
 const stats = [
-  { target: 20, suffix: '+', label: 'Clientes Atendidos' },
+  { target: 1000, suffix: '+', label: 'Clientes Atendidos' },
   { target: 99, suffix: '%', label: 'Aprovação' },
-  { target: 10, suffix: '+', label: 'Anos de Experiência' },
+  { target: 6, suffix: '+', label: 'Anos de Experiência' },
 ]
 
 const displayValues = ref(stats.map(() => 0))

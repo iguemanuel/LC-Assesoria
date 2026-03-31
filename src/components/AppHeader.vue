@@ -71,8 +71,8 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(8px);
+  background-color: #ffffff;
+  backdrop-filter: none;
   transition: var(--transition);
 }
 
@@ -143,6 +143,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
   border: none;
   cursor: pointer;
   padding: 4px;
+  background-color: #ffffff;
 }
 
 .menu-toggle span {
@@ -177,7 +178,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--color-bg);
+    background-color: #ffffff !important;
     flex-direction: column;
     justify-content: flex-start;
     padding-top: 40px;
