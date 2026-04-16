@@ -33,7 +33,8 @@
               </div>
               <div>
                 <span class="contact-item-label">Telefone</span>
-                <span class="contact-item-value">(42)99846-8323</span>
+                <span class="contact-item-value">(42)99846-8323 - Liara</span>
+                <span class="contact-item-value">(42)99846-8326 - Liseu</span>
               </div>
             </div>
 

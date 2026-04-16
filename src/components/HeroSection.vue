@@ -4,14 +4,17 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import desktopBanner1 from '@/assets/images/desktop/banner1.png'
 import desktopBanner2 from '@/assets/images/desktop/banner2.png'
 import desktopBanner3 from '@/assets/images/desktop/banner3.png'
+import desktopBanner4 from '@/assets/images/desktop/banner4.png'
 import mobileBanner1 from '@/assets/images/mobile/banner1.jpeg'
 import mobileBanner2 from '@/assets/images/mobile/banner2.jpeg'
 import mobileBanner3 from '@/assets/images/mobile/banner3.jpeg'
+import mobileBanner4 from '@/assets/images/mobile/banner4.jpeg'
 
 const slides = [
   { desktop: desktopBanner1, mobile: mobileBanner1, alt: 'LC Assessoria de Seguros e Previdência' },
   { desktop: desktopBanner2, mobile: mobileBanner2, alt: 'Está afastado do trabalho?' },
   { desktop: desktopBanner3, mobile: mobileBanner3, alt: 'Ficou com sequelas após um acidente?' },
+  { desktop: desktopBanner4, mobile: mobileBanner4, alt: 'Quer garantir um futuro tranquilo?' },
 ]
 
 const current = ref(0)
