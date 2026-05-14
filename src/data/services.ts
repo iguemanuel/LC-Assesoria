@@ -18,7 +18,7 @@ export const services: Service[] = [
   {
     title: 'Seguro de Vida',
     description:
-      'Se você sofreu um acidente e possui um Seguro de Vida, seja ele: particular (por exemplo, aqueles que contratamos em banco), empresarial (como funcionário na empresa que trabalha) ou até mesmo para entregador do aplicativo do tipo ifood ou uber. A LC Assessoria pode ajudar a receber a indenização. Muitas pessoas possuem esse tipo de seguro e nós somos especialistas em garantir que você receba um valor justo.',
+      'Se você sofreu um acidente e possui um Seguro de Vida, seja ele: particular (por exemplo, aqueles que contratamos em banco), empresarial (como funcionário na empresa que trabalha) ou até mesmo para entregador do aplicativo do tipo ifood ou uber, a LC Assessoria pode ajudar a receber a indenização. Muitas pessoas possuem esse tipo de seguro e nós somos especialistas em garantir que você receba um valor justo.',
     image: seguroFamilia,
   },
   {
